@@ -56,7 +56,7 @@ def login():
 def dashboard():
     course_urls = [
         'https://clonebucker12.s3.us-east-1.amazonaws.com/python_code.pdf',
-        'https://clonebucket.s3.amazonaws.com/PYTHON%2BPhttps://clonebucker12.s3.us-east-1.amazonaws.com/PYTHON%22BPROGRAMMING%2BNOTES.pdf'
+        'https://clonebbucket.s3.amazonaws.com/PYTHON%2BPhttps://clonebucker12.s3.us-east-1.amazonaws.com/PYTHON%2BPROGRAMMING%2BNOTES.pdf'
     ]
     
     return render_template('dashboard.html', course_urls=course_urls)
