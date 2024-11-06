@@ -8,10 +8,10 @@ app.secret_key = 'temporary_key'
 # Database connection
 def get_db_connection():
     return mysql.connector.connect(
-        host='clonedb.ct4kk08gsd28.us-east-1.rds.amazonaws.com',
+        host='clonedb1.ct4kk08gsd28.us-east-1.rds.amazonaws.com',
         user='admin',
         password='daraniprasad',
-        database='clone_db'
+        database='clonedb1'
     )     
 
 # Registration Route
